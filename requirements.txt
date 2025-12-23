@@ -1,0 +1,21 @@
+# BLIP-Caption - requirements
+timm==0.4.12
+transformers==4.15.0
+fairscale==0.4.4
+opencv-python-headless==4.7.0.72
+sentencepiece
+
+# LSTM and Our-Caption - requirements
+torch==2.0.0
+torchvision==0.15.1
+transformers==4.30.1
+pytorch_lightning==2.0.1
+gradio==3.1.1
+
+# Global
+matplotlib~=3.5.2
+tqdm
+ftfy
+regex
+nltk
+wandb

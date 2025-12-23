@@ -1,0 +1,15 @@
+name: blip
+channels:
+  - defaults
+dependencies:
+- python=3.8
+- pip>=21
+- pip:
+   - tqdm
+   - timm==0.4.12
+   - transformers==4.15.0
+   - fairscale==0.4.4
+   - pycocoevalcap
+   - wandb
+   - opencv-python-headless==4.7.0.72
+   - sentencepiece
